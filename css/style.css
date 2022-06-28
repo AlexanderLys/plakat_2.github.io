@@ -95,3 +95,7 @@ h1{
 	}
 
 }
+@media (min-width:1940px) {
+.wrapper{
+	background-image: url(bg_3820x2160.png)
+}
