@@ -143,3 +143,29 @@ a.close_window {
 a.close_window:hover {
     background-color: rgba(252, 20, 0, 0.8);
 }
+@media (max-width:960px) {
+   window {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 2vw;
+    width: 80vw;
+    min-height: 10vh;
+    max-height: 80vh;
+    border: 1vw solid #cecece;
+    padding: 3vh;
+    transform: translate(-50%,-50%);
+    background-color: #fafafa;
+    font-family: Arial, serif;
+    font-size: 2vh;
+    overflow-y: auto;
+    border-radius: 10px;
+    color: #181319;
+    text-align: justify;
+    letter-spacing: 0.1wh;
+
+} h2{
+    text-align: center;
+    font-size: 2.3vh;
+}
+}
