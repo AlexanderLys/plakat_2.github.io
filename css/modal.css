@@ -1,0 +1,145 @@
+.close {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    border: none;
+    border-radius: 5px;
+    background: rgba(78, 13, 97, 0.68);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+    font-family: Bookman Old Style, Arial, serif;
+    font-size: 0.9vw;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+}
+/* кнопка закрытия при наведении */
+.close:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+}
+/*окна один*/
+#zatemnenie:target {
+display: block;
+}
+#zatemnenie {
+background: rgba(24, 19, 25, 0.68);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+z-index: 9999999999;
+}
+/*окно два*/
+#zatemnenie1:target {
+display: block;
+}
+#zatemnenie1 {
+background: rgba(24, 19, 25, 0.68);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+z-index: 9999999999;
+}
+/*окно три*/
+#zatemnenie2:target {
+display: block;
+}
+#zatemnenie2 {
+background: rgba(24, 19, 25, 0.68);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+z-index: 9999999999;
+}
+/*окно четыре*/
+#zatemnenie3:target {
+display: block;
+}
+#zatemnenie3 {
+background: rgba(24, 19, 25, 0.68);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+z-index: 999;
+}
+/*окно четыре*/
+#zatemnenie4:target {
+display: block;
+}
+#zatemnenie4 {
+background: rgba(24, 19, 25, 0.68);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+z-index: 999;
+}
+/*окно четыре*/
+#zatemnenie5:target {
+display: block;
+}
+#zatemnenie5 {
+background: rgba(24, 19, 25, 0.68);
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+display: none;
+z-index: 999;
+}
+/*свойства окон*/
+window {
+position: absolute;
+top: 50%;
+left: 50%;
+min-width: 20vw;
+min-height: 10vh;
+max-height: 80vh;
+border: 1vw solid #cecece;
+padding: 2vw;
+transform: translate(-50%,-50%);
+background-color: #fafafa;
+font-family: Arial, serif;
+font-size: 1.2vw;
+overflow-y: auto;
+border-radius: 10px;
+color: #181319;
+text-align: justify;
+}
+h2{
+    text-align: center;
+}
+a.close_window {
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(0, 131, 119, 0.9);
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    cursor: pointer;
+    outline: none;
+    padding: 5px 10px;
+    font-family: Bookman Old Style, Arial, monospace;
+    font-size: 16px;
+    font-weight: 700;
+}
+a.close_window:hover {
+    background-color: rgba(252, 20, 0, 0.8);
+}

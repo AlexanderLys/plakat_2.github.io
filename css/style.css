@@ -1,0 +1,97 @@
+.wrapper{
+	min-height: 100vh;
+	max-height: 100vh;
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: #9561be;
+	background-image: url(bag.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	padding: 0;
+	margin: 0;
+	color: #fff;
+	font-family: Arial, serif;
+	font-size: 1.2vw;
+
+}
+h1{
+	font-size: 5.7vw;
+	padding: 1vw;
+	line-height: 4.5vw;
+	letter-spacing: 0.4vw;
+	font-family: Bookman Old Style, Arial, serif;
+	color: #181319;
+
+}
+.introduction{
+	max-width: 47vw;
+	margin: 1.5vh 1vw;
+	text-align: justify;
+}
+.block{
+	width: 50vw;
+	height: 6.8vh;
+	border: 0.15vw #c5c5c5	 solid;
+	margin: 0.1vw 0 0.1vw 49vw;
+	background: #181319;
+	border-radius: 0.5vw;
+
+}
+.block:hover{
+	box-shadow: 0px 0px 1vw #000;
+	background: #403b4b;
+}
+.bl{
+	cursor: pointer;
+	text-align: center;
+	font-size: 1.4vw;
+	padding: 1.7vh 0;
+	color: #a4ca39;
+	font-weight: bold;
+}	/*
+.superblock{
+	position: absolute;
+	top: 55.7%;
+	left: 0;
+	right: 110%;
+	bottom: 0;
+}*/
+
+@media (max-width:1440px) {
+.wrapper{
+	background-image: url(bg_1400x1000.png)
+}
+}
+@media (max-width:960px) {
+	h1{
+		text-align: center;
+		font-size: 4vh;
+		padding: 1vh;
+		line-height: 4vh;
+		letter-spacing: 0.4vw;
+	}
+	.block{
+	width: auto;
+	height: 6.8vh;
+	margin: 0.1vw 1vw;
+
+	}.bl{
+	text-align: center;
+	font-size: 1.5vh;
+	padding: 1.7vh 0;
+	}	
+	.introduction{
+	max-width: 100vw;
+	margin: 1vh 1.2vh;
+	text-align: justify;
+	letter-spacing: 0.05vw;
+
+	}
+	.wrapper{
+		font-size: 1.5vh;
+		background-image: url(bg_768x1024.png)
+
+	}
+
+}
